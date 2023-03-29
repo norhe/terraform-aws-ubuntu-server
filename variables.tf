@@ -3,7 +3,7 @@ variable "region" {
   default = "us-east-2"
 }
 
-variable "instance-size" {
+variable "instance_size" {
     type = string
     default = "t2.micro"
 }

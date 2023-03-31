@@ -7,3 +7,7 @@ variable "instance_size" {
     type = string
     default = "t2.micro"
 }
+
+variable "test_var" {
+    type = string
+}
